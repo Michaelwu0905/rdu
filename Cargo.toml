@@ -1,0 +1,11 @@
+[package]
+name = "rdu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] } # 命令行参数解析
+walkdir = "2.4"                                   # 高效的文件递归遍历
+rayon = "1.8"                                     # 并发计算库 (神库!)
+humansize = "2.1"                                 # 把字节转换成 "MB", "GB"
+owo-colors = "4.0"                                # 彩色终端输出
